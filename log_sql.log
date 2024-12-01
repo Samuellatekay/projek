@@ -1,0 +1,29 @@
+2024-11-11T13:13:14.642693+07:00 LAPTOP-J12VS323 systemd-logind[179]: New seat seat0.
+2024-11-11T13:13:17.577311+07:00 LAPTOP-J12VS323 login[343]: SQL Injection attempt detected: Input contains ' OR 1=1 -- '
+2024-11-11T13:13:17.577495+07:00 LAPTOP-J12VS323 login[343]: PAM adding faulty module: pam_lastlog.so                                                                                                         
+2024-11-11T13:13:18.302839+07:00 LAPTOP-J12VS323 login[343]: pam_unix(login:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-11T13:13:18.335121+07:00 LAPTOP-J12VS323 systemd-logind[179]: New session 1 of user root.
+2024-11-11T13:13:18.362393+07:00 LAPTOP-J12VS323 (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-11T13:13:18.589519+07:00 LAPTOP-J12VS323 login[397]: ROOT LOGIN  on '/dev/pts/1'
+2024-11-11T13:14:19.794432+07:00 LAPTOP-J12VS323 systemd-logind[170]: New seat seat0.
+2024-11-11T13:14:21.352117+07:00 LAPTOP-J12VS323 login[294]: SQL Injection attempt detected: Input contains ' OR 1=1 -- '
+2024-11-11T13:14:21.352291+07:00 LAPTOP-J12VS323 login[294]: PAM adding faulty module: pam_lastlog.so
+2024-11-11T10:59:10.987654+07:00 RAY login[402]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2024-11-11T10:59:10.987765+07:00 RAY login[402]: PAM adding faulty module: pam_lastlog.so
+2024-11-11T10:59:11.123456+07:00 RAY login[402]: pam_unix(login:session): session opened for user ' OR 1=1 -- '(uid=1001) by ' OR 1=1 -- '(uid=0)
+2024-11-11T10:59:11.135679+07:00 RAY systemd-logind[216]: New session 2 of user ' OR 1=1 -- '.
+2024-11-11T10:59:11.148215+07:00 RAY (systemd): pam_unix(systemd-user:session): session opened for user ' OR 1=1 -- '(uid=1001) by ' OR 1=1 -- '(uid=0)
+2024-11-11T10:59:35.213423+07:00 RAY sudo:    hanzu : TTY=pts/1 ; PWD=/home/hanzu ; USER=root ; COMMAND=SELECT * FROM users WHERE username = '' OR 1=1 --;
+2024-11-11T10:59:35.213563+07:00 RAY sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2024-11-11T10:59:35.230897+07:00 RAY su[568]: (to root) root on pts/3
+2024-11-11T10:59:35.230987+07:00 RAY su[568]: pam_unix(su:session): session opened for user root(uid=0) by ' OR 1=1 -- '(uid=0)
+2024-11-11T10:59:35.249556+07:00 RAY systemd-logind[216]: New session c2 of user root.
+2024-11-11T10:59:35.260987+07:00 RAY (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+2024-11-11T13:17:45.789012+07:00 Regi webapp: SQL Injection attempt detected
+2024-11-11T13:17:45.789012+07:00 Regi webapp: Source IP: 192.168.0.10
+2024-11-11T13:17:45.789012+07:00 Regi webapp: User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+2024-11-11T13:17:45.789012+07:00 Regi webapp: Endpoint: /login
+2024-11-11T13:17:45.789012+07:00 Regi webapp: Parameters: { "username": "admin' OR '1'='1", "password": "any" }
+2024-11-11T13:17:45.789012+07:00 Regi webapp: Injection Pattern Detected: "' OR '1'='1"
+2024-11-11T13:17:45.789012+07:00 Regi webapp: Action Taken: SQL Injection attempt blocked, IP 192.168.0.10 temporarily banned for 24 hours
+2024-11-11T13:17:45.789012+07:00 Regi webapp: pam_unix(sudo:session): session closed for user root

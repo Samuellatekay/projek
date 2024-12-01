@@ -1,0 +1,29 @@
+Nov 11 21:30:12 DESKTOP-BIDI3GD sshd[12345]: Failed password for invalid user admin from 192.168.1.100 port 54321 ssh2
+Nov 11 21:30:14 DESKTOP-BIDI3GD sshd[12345]: Failed password for invalid user admin from 192.168.1.100 port 54321 ssh2
+Nov 11 21:30:17 DESKTOP-BIDI3GD sshd[12345]: Failed password for invalid user admin from 192.168.1.100 port 54321 ssh2
+Nov 11 21:30:21 DESKTOP-BIDI3GD sshd[12345]: Failed password for root from 192.168.1.100 port 54321 ssh2
+Nov 11 21:30:25 DESKTOP-BIDI3GD sshd[12345]: Failed password for root from 192.168.1.100 port 54321 ssh2
+Nov 11 21:30:30 DESKTOP-BIDI3GD sshd[12345]: Accepted password for root from 192.168.1.100 port 54321 ssh2
+Nov 11 21:30:31 DESKTOP-BIDI3GD sshd[12345]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 21:40:36 DESKTOP-BIDI3GD sudo:     root : TTY=tty1 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/apt-get install rsyslog
+Nov 11 21:40:36 DESKTOP-BIDI3GD sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 21:40:39 DESKTOP-BIDI3GD sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 22:54:14 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 22:54:15 DESKTOP-EMO0Q9R sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/rsyslogd
+Nov 11 22:54:15 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 22:54:15 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 22:54:16 DESKTOP-EMO0Q9R sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/rsyslogd
+Nov 11 22:54:16 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 22:54:16 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 22:54:17 DESKTOP-EMO0Q9R sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/rsyslogd
+Nov 11 22:54:17 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 22:54:17 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 22:54:18 DESKTOP-EMO0Q9R sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/rsyslogd
+Nov 11 22:54:18 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 22:54:18 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 22:54:19 DESKTOP-EMO0Q9R sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/rsyslogd
+Nov 11 22:54:19 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 22:54:19 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session closed for user root
+Nov 11 22:54:20 DESKTOP-EMO0Q9R sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/rsyslogd
+Nov 11 22:54:20 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=0)
+Nov 11 22:54:20 DESKTOP-EMO0Q9R sudo: pam_unix(sudo:session): session closed for user root
